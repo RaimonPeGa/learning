@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  border: thin solid red;
+}
+
+#header {
+background-color: black;
+
+}
+
+#number {
+display: inline-block;
+color: white;
+}
+
+.login {
+display: inline-block;
+background-color: #5ad651;
+color: white;
+
+}
+
+.login > ul > li  {
+display: inline-block;
+}
+
+
+.courses-browser {
+margin: 1em;
+
+}
+
+.courses-carts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 1em;
+}
+
+
+.certificate {
+margin: 1em;
+
+}

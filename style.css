@@ -38,7 +38,7 @@ display: inline-block;
 .logo {
 float: left;
 font-size: 24px;
-
+font-weight: bold;
 }
 
 .e {
@@ -46,29 +46,97 @@ font-size: 24px;
   color: #5ad651;
 }
 
-#browser > img {
-width: 100%
+#browser {
+position: relative;
+}
 
+#browser > img {
+width: 100%;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#green {
+color: #5ad651;
+}
+
+#white {
+color: white;
+}
+
+.field {
+  display:flex;
+  position:realtive;
+  width:70%;
+  flex-direction:row;
+  margin: auto;
+
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:20px 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border: solid black;
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:#5ad651;
+  color:white;
+  border:none;
 }
 
 #summary {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  padding: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em 8em;
 }
 
 .summary-carts {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   padding: 1em;
   margin: 1em;
+  display: inline-grid;
+  text-align: center;
+}
+
+.summary-carts > i {
+font-size: 70px;
+color: #5ad651;
+text-align: center;
+}
+
+.summary-carts > h3 {
+text-align: center;
+}
+
+#courses {
+background-color: #bec8ca;
+}
+
+#e-learning {
+display: inline-block;
+color: #5ad651;
 }
 
 .courses-browser {
 
 display: grid;
-grid-template-columns: 1fr 3fr 1fr;
-padding: 1em;
+grid-template-columns: 3fr;
+padding: 1em 8em;
 }
 
 .browser-cart {
@@ -78,8 +146,8 @@ margin: 1em;
 
 .courses-carts {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  padding: 1em;
+  grid-template-columns:  1fr 1fr 1fr;
+  padding: 1em 8em;
 }
 
 

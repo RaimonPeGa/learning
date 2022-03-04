@@ -124,7 +124,14 @@ text-align: center;
 }
 
 #courses {
-background-color: #bec8ca;
+background-color: #ede5e5;
+}
+
+.courses-title {
+font-size: 30px;
+font-weight: bold;
+padding: 1em;
+text-align: center;
 }
 
 #e-learning {
@@ -137,11 +144,38 @@ color: #5ad651;
 display: grid;
 grid-template-columns: 3fr;
 padding: 1em 8em;
+background-color: #ede5e5;
 }
 
 .browser-cart {
-
+background-color: white;
 margin: 1em;
+}
+
+.browser-cart > ul > li {
+display: inline-block;
+margin: 5px;
+}
+
+#all {
+float: left;
+color: white;
+background-color: #5ad651;
+margin: 5px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 5px;
+}
+
+#all-courses {
+float: right;
+display: inline-block;
+color: #5ad651;
+border: thin solid #5ad651;
+border-radius: 5px;
+margin: 5px;
+padding-right: 15px;
+padding-left: 15px;
 }
 
 .courses-carts {
@@ -153,5 +187,18 @@ margin: 1em;
 
 .certificate {
 margin: 1em;
+background-color: white;
+padding: 1em;
+}
 
+.certificate > img {
+width: 100%;
+
+}
+
+.certificate > h5 {
+color: grey;
+}
+
+.certificate > h3 {
 }

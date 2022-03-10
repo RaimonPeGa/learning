@@ -202,3 +202,50 @@ color: grey;
 
 .certificate > h3 {
 }
+
+#online {
+position: relative;
+}
+
+#online > img {
+width: 100%;
+filter: brightness(50%);
+}
+
+#academic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bolder;
+}
+
+#subtitle {
+font-size: 20px;
+color: white;
+}
+
+#title {
+font-size: 30px;
+font-weight: bold;
+display: inline-block;
+color: white;
+}
+
+#verde {
+display: inline-block;
+color: #5ad651;
+}
+
+#apply {
+  position: absolute;
+  color: white;
+  background-color: #5ad651;
+
+  left: 40%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding: 10px;
+  border-radius: 5px;
+}

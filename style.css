@@ -59,16 +59,18 @@ width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bolder;
 }
 
 #green {
 color: #5ad651;
+font-size: 30px;
 }
 
 #white {
 color: white;
+font-size: 30px;
 }
 
 .field {
@@ -326,4 +328,338 @@ font-size: 17px;
 
 #suscribe {
   background-color: #5ad651;
+}
+
+@media (max-width: 1024px) {
+
+  #header {
+  background-color: black;
+  text-align: right;
+
+  }
+
+  #number {
+  display: inline-block;
+  color: white;
+  }
+
+  .login {
+  display: inline-block;
+  background-color: #5ad651;
+  color: white;
+
+  }
+
+  .login > ul > li  {
+  display: inline-block;
+  }
+
+  #menu {
+  text-align: right
+  }
+
+
+  #menu > ul > li {
+  display: inline-block;
+  }
+
+  .logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  }
+
+  .e {
+    float: left;
+    color: #5ad651;
+  }
+
+  #browser {
+  position: relative;
+  }
+
+  #browser > img {
+  width: 100%;
+  }
+
+  .main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  #green {
+  color: #5ad651;
+  }
+
+  #white {
+  color: white;
+  }
+
+  .field {
+    display:flex;
+    position:realtive;
+    width:70%;
+    flex-direction:row;
+    margin: auto;
+
+  }
+
+  .field>input[type=text],
+  .field>button {
+    display:block;
+    font:10px 'Montserrat Alternates';
+  }
+
+  .field>input[type=text] {
+    flex:1;
+    padding:0.6em;
+    border: solid black;
+  }
+
+  .field>button {
+    padding:0.6em 0.8em;
+    background-color:#5ad651;
+    color:white;
+    border:none;
+  }
+
+  #summary {
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 0.2em 0.1em;
+  }
+
+  .summary-carts {
+    padding: 0.5em;
+    margin: 0.5em;
+    display: inline-grid;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .summary-carts > i {
+  font-size: 70px;
+  color: #5ad651;
+  text-align: center;
+  }
+
+  .summary-carts > h3 {
+  text-align: center;
+  }
+
+  #courses {
+  background-color: #ede5e5;
+  }
+
+  .courses-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0.5em;
+  text-align: center;
+  }
+
+  #e-learning {
+  display: inline-block;
+  color: #5ad651;
+  }
+
+  .courses-browser {
+
+  display: grid;
+  grid-template-columns: 3fr;
+  padding: 0.1em 0.2em;
+  background-color: #ede5e5;
+  }
+
+  .browser-cart {
+  background-color: white;
+  margin: 0.5em;
+  font-size: 30px;
+  }
+
+  .browser-cart > ul > li {
+  display: inline-block;
+  margin: 5px;
+  }
+
+  #all {
+  float: left;
+  color: white;
+  background-color: #5ad651;
+  margin: 5px;
+  padding-left: 11px;
+  padding-right: 1px;
+  border-radius: 5px;
+  }
+
+  #all-courses {
+  float: right;
+  display: inline-block;
+  color: #5ad651;
+  border: thin solid #5ad651;
+  border-radius: 5px;
+  margin: 5px;
+  padding-right: 1px;
+  padding-left: 1px;
+  }
+
+  .courses-carts {
+    display: grid;
+    grid-template-columns:  1fr ;
+    font-size: 30px;
+    padding: 0.2em 1em;
+  }
+
+
+  .certificate {
+  margin: 0.5em;
+  background-color: white;
+  padding: 0.5em;
+  }
+
+  .certificate > img {
+  width: 100%;
+
+  }
+
+  .certificate > h5 {
+  color: grey;
+  }
+
+  .certificate > h3 {
+  }
+
+  #online {
+  position: relative;
+  }
+
+  #online > img {
+  width: 100%;
+  filter: brightness(50%);
+  }
+
+  #academic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  #subtitle {
+  font-size: 20px;
+  color: white;
+  }
+
+  #title {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  color: white;
+  padding: 0.5em;
+  }
+
+  #verde {
+  display: inline-block;
+  color: #5ad651;
+  }
+
+  #apply {
+    position: absolute;
+    color: white;
+    background-color: #5ad651;
+
+    left: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  #videos-img {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr ;
+  padding: 0.5em;
+  }
+
+  .title-videos {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  .title-videos > span {
+    color: #5ad651;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .vid-izq {
+  position: relative;
+  padding: 0.5em;
+  display: inline-block;
+  }
+
+  .vid-drch {
+    position: relative;
+  display: grid;
+  grid-template-columns: 1fr ;
+  padding: 0.5em;
+
+
+  }
+
+  .vid-izq > img {
+  padding: 0.5em;
+  width: 100%;
+  }
+
+  .vid-drch > img {
+  display: inline-block;
+  padding: 0.5em;
+  width: 100%
+  }
+
+  .vid-drch i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  #footer {
+  display: inline-flex;
+  grid-template-columns: 1fr ;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: #1e1b19;
+  color: white;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #footer ul {
+  padding: 1em;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #footer ul li {
+  padding: 0.5em;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #suscribe {
+    background-color: #5ad651;
+  }
+
 }
